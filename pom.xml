@@ -18,6 +18,14 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+
+  <repositories>
+      <repository>
+          <id>jitpack.io</id>
+          <url>https://jitpack.io</url>
+      </repository>
+  </repositories>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -25,13 +33,11 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/com.github.chen0040/java-naive-bayes-classifier -->
     <dependency>
-        <groupId>com.github.chen0040</groupId>
-        <artifactId>java-naive-bayes-classifier</artifactId>
-        <version>1.0.1</version>
+        <groupId>com.github.ptnplanet</groupId>
+        <artifactId>Java-Naive-Bayes-Classifier</artifactId>
+        <version>1.0.7</version>
     </dependency>
-
   </dependencies>
 
   <build>
